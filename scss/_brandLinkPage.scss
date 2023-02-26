@@ -1,0 +1,28 @@
+
+.brand-link{
+    height: 40px;
+    background-size: 100% 40px;
+    
+   
+    img{
+        margin-top: 100px;
+        transition: all 0.7s;
+        &:hover{
+            transform: translateY(-20px);
+        }
+       
+    }
+   
+
+   
+
+}
+
+
+
+@media (max-width:575px){
+    .brandlink-link{
+        margin-left: 145px;
+        max-width: 100px;
+    }
+}

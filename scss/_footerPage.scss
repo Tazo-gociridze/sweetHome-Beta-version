@@ -1,0 +1,73 @@
+.prefooter{
+    
+    .prefooter_row{
+        margin-top: 200px;
+        height: 180px;
+        background-image: url(../image/corporate-slider2.jpg);
+        border-bottom: 1px solid #01ff73;
+
+    .prefooter_first-col{
+        margin: 50px 0px;
+    }
+
+    .prefooter_h1{
+          color: #01ff73;
+    }
+    .prefooter_p{
+            color: #f1f8f4;
+    }
+
+//// last_col======================================>
+
+    .prefooter_last-col{
+        margin: 40px 0px;
+    }
+
+    .prefooter_label{
+        color: #ffffff;
+    }
+
+    .prefooter_input{
+        height: 50px;
+        
+    }
+
+    .prefooter_button{
+        height: 50px;
+        color: #01ff73;
+
+        &:hover{
+            color: #040404;
+        }
+    }
+
+    }
+    @media(max-width:1200px){
+        .prefooter_row{
+            height: 400px;
+        }
+    }
+}
+
+.footer_content{
+
+    .footer-label{
+        letter-spacing: 2px;
+        color: #01ff73;
+    }
+
+    .footer-input{
+        width: 300px;
+        height: 40px;
+        background-color: #726e6d1e;
+        border: 1px solid white;
+        color: white;
+        letter-spacing: 2px;
+    }
+
+    .footer-input-big{
+        width: 648px;
+        height: 200px;
+        text-align: top;
+    }
+}

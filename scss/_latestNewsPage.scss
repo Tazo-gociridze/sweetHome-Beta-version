@@ -1,0 +1,104 @@
+.latest-news{
+    margin-top: 170px;
+      .latest-news_box{
+        position: relative;
+        background-size: 100% 400px;
+        height: 330px;
+        transition: 0.5s;
+        margin-left: 6%;
+
+        .latest-news-darkground{
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            height: 330px;
+            background-color: #0404046a;
+            transition:  0.5s;
+        }
+
+        &:hover{
+            background-color: #201e1e;
+
+            .latest-news-h2{
+                transform: translateY(-70px);
+            }
+            .magic-text_div{
+                transform: translateY(-50px);
+                visibility: visible;
+                .magic-text{
+                    opacity: 1;
+                }
+            }
+
+            .latest-news-darkground{
+                background-color: rgba(0, 0, 0, 0.793);
+            }
+           
+        }
+        
+        .latest-news-btn{
+            background-color: #01ff73;
+            color: rgb(0, 0, 0);
+            border: none;
+            text-transform: uppercase;
+            margin: 20px 20px;
+            transition: all 0.5s;
+
+            &:hover{
+                background-color: #040404;
+                color: #01ff73;
+            }
+        }
+
+        .latest-news-h2{
+            font-size: 26px;
+            color: white;
+            margin-top: 140px;
+            padding-left: 30px;
+            transition: 0.5s;
+        }
+
+        .magic-text_div{
+            padding-left: 30px;
+            visibility: hidden;
+            transition: all 0.5s;
+
+            .magic-text{
+                opacity: 0;
+                      color: white;
+                      font-size: 14px;
+                      transition: 0.5s;
+            }
+        }
+    }
+
+    .latest-news_box-1{background-image: url(../image/latestNewsImg/corporate-img13-1170x700.jpg);}
+    .latest-news_box-2{background-image: url(../image/latestNewsImg/corporate-img14.jpg);}
+    .latest-news_box-3{background-image: url(../image/latestNewsImg/corporate-img15.jpg);}
+    .latest-news_box-4{background-image: url(../image/latestNewsImg/corporate-img16.jpg);}
+    
+    @media(max-width:1200px){
+        .latest-news_box{
+            margin-left: 3%;
+            max-width: 90%;
+        }
+     }
+
+    @media(max-width:600px){
+        .latest-news_box{
+            background-size: 800px;
+            margin-left: 5%;
+            max-width: 465px;
+        }
+     }
+
+     @media(max-width:575px){
+        .latest-news_box{
+            background-size: 800px;
+            margin-left: 3%;
+            max-width: 465px;
+        }
+     }
+}
+

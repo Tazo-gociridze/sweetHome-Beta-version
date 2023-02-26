@@ -1,0 +1,57 @@
+footer{
+    width: 100%;
+    height: 800px;
+    background-image: url(../image/corporate-slider3.jpg);
+    opacity:1;
+    position: relative;
+
+    .footer-darkground{
+        background-color: rgba(5, 5, 5, 0.448);
+        position: absolute;
+        min-width: 99%;
+        min-height: 100%;
+
+        .footer_content-div{
+
+            margin-top: 7%;
+            margin-left: 22%;
+
+            .footer_content{
+                opacity: 1;
+                .footer-info{
+                    font-size: 25px;
+                } 
+
+                .contact-info_content{
+
+                    .footer-a{
+                        color: #01ff73;
+                        text-decoration: none;
+                        transition: all 0.5s;
+                    }
+
+                    .footer-logo{
+                        font-size: 35px;
+                        color: #01ff73;
+                    }
+                }
+
+                .footer-info-child{
+                    
+                    &:hover{
+                        .footer-a{
+                            color: #e5eee9;
+                            text-decoration: none;
+                            
+                        }
+                    }
+                }
+
+          }
+        }
+    }
+    
+}
+
+
+

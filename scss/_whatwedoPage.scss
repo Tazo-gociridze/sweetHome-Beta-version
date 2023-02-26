@@ -1,0 +1,117 @@
+.what-we-do{
+    margin-top: 100px;
+     .what-we-do-img{
+         max-width: 450px;
+         height: 300px;
+         position: relative;
+         background-size: cover;
+         margin-left: 7%;
+         transition: 0.5s;
+         border: 2px solid rgb(40, 42, 41);
+         box-shadow: 3px 3px 5px;
+ 
+         &:hover{
+             .what-we-do-hoverbox{
+              background-color: #040404b9;
+              height: 295px;
+            //   transform: rotate(180deg);
+              min-width: 100%;
+              opacity: 1;
+             }
+            
+             transition: 0.5s;
+             border: 2px solid #01ff73;
+             box-shadow: 3px 3px 5px #01ff73, -3px -3px 5px #01ff73;
+             transform: translateY(-17px);
+          }
+     }
+ 
+     .what-we-do-hoverbox_mom{
+         position: absolute;
+         top: 0;
+         left: 0;
+         background-color: #0404046f;
+         height: 300px;
+         min-width: 100%;
+         z-index: 8;
+ 
+         .what-we-do-icon{
+             font-size: 80px;
+             color: #01ff73;
+             margin: 20% 40%;
+             transition: 0.5s;
+         }
+         .what-we-do-magic-text{
+             color: #ffffff;
+              margin-top: -100px;   
+              opacity: 0; 
+              padding: 30px; 
+              transition: 0.5s;
+              font-size: 14px;
+         }
+ 
+         .what-we-do-hoverbox{
+             position: absolute;
+             top: 0;
+             left: 0;
+             min-width: 100%;
+             height: 0px;
+             background-color: #000000c6;
+             transition: 0.3s;
+             z-index: 0;
+         }
+ 
+         &:hover{
+             .what-we-do-icon{
+                 transform: translateY(-80px);
+                
+             }
+ 
+             .what-we-do-magic-text{
+                 opacity: 1;
+                 z-index: 10;
+                 transform: translateY(-90px);
+             }
+         }
+     }
+ }
+ 
+ @media(max-width: 1200px){
+     .what-we-do-img{
+         position: absolute;
+         left: 90px;
+     }
+     .what-we-do-img-3{
+        position: absolute;
+        left: 320px;
+     }
+ }
+ @media(max-width: 990px){
+     .what-we-do-img{
+         position: absolute;
+         left: 150px;
+         min-width: 460px;
+     }
+ }
+ 
+ @media(max-width: 680px){
+     .what-we-do-img{
+         position: absolute;
+         left: 0px;
+         min-width: 460px;
+     }
+ }
+ 
+ @media(max-width: 530px){
+     .what-we-do-img{
+         position: absolute;
+         left: -26px;
+         max-width: 350px;
+     }
+ }
+ 
+          .what-we-do-img-1{background-image: url(../image/whatWeDoImg/man-working-on-roof-front-view.jpg);}
+         .what-we-do-img-2{background-image: url(../image/whatWeDoImg/medium-shot-man-posing-with-crossed-arms.jpg);}
+         .what-we-do-img-3{background-image: url(../image/whatWeDoImg/factory-workers-checking-quality-of-products-in-large-industrial-hall.jpg);}
+ 
+ 

@@ -1,0 +1,50 @@
+.statistic-container{
+    margin-top: 100px;
+    height: 250px;
+    background-image: url(../image/business-partners-shaking-hands-monochrome.jpg);
+    background-size: 100% 1100px;
+    background-attachment: fixed;
+    
+    .statistic-mom{
+      //  margin-left: 9%;
+    }
+
+    .statistic-icon{
+      color: white;
+      font-size: 50px;
+    }
+
+    .statistic{
+      margin-top: 75px;
+       margin-left: 7%;
+    }
+
+    .statistic-num-p{
+            font-size: 30px;
+            color:#01ff73;
+            text-align: center;
+           
+    }
+    .statistic-rate{
+            color: white;
+            font-size: 14px;
+            text-align: center;
+    }
+    @media(max-width: 575px){
+      .statistic{
+          max-width: 200px;
+           margin-left: 7%;
+        }
+  }
+}
+
+@media(max-width: 575px){
+  .statistic-container{
+      height: 600px;
+      background-size: 1600px 850px;
+  }
+  .statistic{
+      max-width: 200px;
+       margin-left: 7%;
+    }
+}
